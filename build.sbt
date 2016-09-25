@@ -1,10 +1,12 @@
 version := "0.0"
 
-scalaVersion := "2.11.6"
+scalaVersion := "2.11.8"
 
-libraryDependencies += "org.spire-math" %% "spire" % "0.9.2-SNAPSHOT"
+libraryDependencies += "org.spire-math" %% "spire" % "0.11.0"
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.0"
+
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
 
 scalaSource in Compile <<= baseDirectory(_ / "src")
 

@@ -17,10 +17,10 @@ object Sample {
     println("quaternion_test: a + b: " + (a + b) + " a * b: " + (a * b))
   }
 
-  def main(args: Array[String]) {
-    println("Starting spire.samples.main")
+  // def main(args: Array[String]) {
+  //   println("Starting spire.samples.main")
 
-    quaternion_test
-  }
+  //   quaternion_test
+  // }
 
 }
